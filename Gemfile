@@ -6,6 +6,8 @@ gem 'rails-api'
 gem 'sqlite3'
 gem 'active_model_serializers'
 
+gem 'rack-cors', :require => 'rack/cors'
+
 # Use unicorn as the app server
 gem 'unicorn'
 
